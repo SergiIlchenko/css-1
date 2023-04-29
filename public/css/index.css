@@ -15,11 +15,11 @@ h1 {
     color: blue;
 }
 
-section p {
+div.box p {
     background: red;
 }
 
-section div {
+div.box div {
     background: green;
 }
 
@@ -32,7 +32,7 @@ ul > li {
     background: red;
 }
 
-button + span {
+button.header-button + span {
     background: red;
 }
 
@@ -44,27 +44,27 @@ p.susid ~ p {
     background: yellow;
 }
 
-li:first-child {
+div.first-task ul li:first-child {
     color: white;
 }
 
-ul:first-child li:first-child {
+div.second-task ul:first-child li:first-child {
     color:  yellow;
 }
 
-ul:last-child li:first-child {
+div.third-task ul:last-child li:first-child {
     background: yellow;
 }
 
-li:last-child {
+div.four-task ul li:last-child {
     background: yellow;
 }
 
-ul:last-child li:last-child {
+div.five-task ul:last-child li:last-child {
     color:  white;
 }
 
-div:only-child {
+div.only-child-task div:only-child {
     color: red;
 }
 
@@ -80,56 +80,56 @@ div.text-wrapper p:only-of-type {
     background: yellow;
 }
 
-a[href] {
+div.lesson-three-task-one nav ul a[href] {
     color: white;
 }
 
-li[value] {
+ol.lesson-three-task-two li[value] {
     color: yellow;
 }
 
-li[value="3"] {
+ol.lesson-three-task-three li[value="3"] {
     background: red;
 }
 
-button[class~="primary"] {
+div.lesson-three-task-four button[class~="primary"] {
     background: blue;
 }
 
-button[class|="secondary"] {
+div.lesson-three-task-five button[class|="secondary"] {
     background: red;
 }
 
-li[class^="b"] {
+div.lesson-three-task-six ul li[class^="b"] {
     color: green;
     background: white;
 }
 
-li[class*="on"] {
+div.lesson-three-task-seven ul li[class*="on"] {
     color: green;
     background: white;
 }
 
-span[class$="s"] {
+div.lesson-three-task-eight ul li span[class$="s"] {
     background: red;
 }
 
-h2::first-letter {
+div.lesson-three-task-nine h2::first-letter {
     color: red;
 }
 
-p::first-line {
+div.lesson-three-task-ten p::first-line {
     background: yellow;
 }
 
-input::placeholder {
+div.lesson-three-task-eleven input::placeholder {
     background: red;
 }
 
-li::before {
+div.lesson-three-task-twelve ul li::before {
     content: "➤";
 }
 
-li::after {
+div.lesson-three-task-thirteen ul li::after {
     content: "➤";
 }
