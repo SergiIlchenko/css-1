@@ -110,6 +110,10 @@ div.lesson-three-task-seven ul li[class*="on"] {
     background: white;
 }
 
+div.lesson-three-task-eight ul > li {
+    background: white;
+}
+
 div.lesson-three-task-eight ul li span[class$="s"] {
     background: red;
 }
@@ -118,7 +122,7 @@ div.lesson-three-task-nine h2::first-letter {
     color: red;
 }
 
-div.lesson-three-task-ten p::first-line {
+div.lesson-three-task-ten p:first-of-type::first-line {
     background: yellow;
 }
 
